@@ -1043,13 +1043,13 @@ def evaluate(test_iter,net,batch_size):
 
 最终结果如下：
 
-| $$epoch$$ | $$batchsize$$ | $$optimizor$$ | $$criterion$$ | $$train\ accuracy$$ | $$test\ accuracy$$ |
+| epoch | batchsize | optimizor | criterion | train\ accuracy | test\ accuracy |
 | :-------: | :-----------: | :-----------: | :-----------: | :-----------------: | :----------------: |
-|  $$500$$  |    $$100$$    |    $$SGD$$    |    $$BCE$$    |      $$0.945$$      |     $$0.91$$2      |
+|  500  |    100    |    SGD$$    |    BCE   |      0.945      |     0.912      |
 
 训练正确率曲线如下：
 
-![image-20211020193107092](image-20211020193107092.png)
+![image-20211020193107092](assets/image-20211020193107092.png)
 
 ### 3.6 总结
 
